@@ -45,11 +45,13 @@
         .btn-off{
             background-color: brown;
             margin-right: 70px;
+            cursor: pointer;
         }
 
         .btn-on{
          background-color: green;
          margin-right: 50px;
+         cursor: pointer;
         }
 
       
@@ -58,7 +60,7 @@
 </head>
 <body>
     <div class="container">
-    <img src="imges/idea.jpg" id="bulb" class="bulb1"/>
+    <img src="idea.jpg" id="bulb" class="bulb1"/>
     <div class="buttons" >
         <button class="btn-toggle btn-off" onclick="off()">Off</button>
         <button class="btn-toggle btn-on" onclick="on()">On</button>
@@ -70,11 +72,11 @@
 
 
        function on(){
-        bulbElement.src = "imges/idea.jpg";
+        bulbElement.src = "idea.jpg";
        }
 
        function off(){
-        bulbElement.src = "imges/idea.jpg";
+        bulbElement.src = "light-bulb.jpg";
        }
      </script>
 </body>
